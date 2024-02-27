@@ -19,7 +19,9 @@ body {
     margin: 10px;
 }
 
-/* Styles for heading level 1 */
+/* 
+Styles for heading level 1 
+*/
 h1 {
     font-weight: 800;
     margin: 30px;
@@ -30,13 +32,17 @@ h1 {
     text-align: center;
 }
 
-/* Styles for paragraph elements */
+/* 
+Styles for paragraph elements 
+*/
 p {
     font-size: 2.5rem;
     color: #e7eaf6;
 }
 
-/* Styles for image elements */
+/* 
+Styles for image elements 
+*/
 img {
     width: 180px;
     height: auto;
@@ -45,7 +51,9 @@ img {
     border-radius: 30px;
 }
 
-/* Styles for a bottom class */
+/* 
+Styles for a bottom class 
+*/
 .bottom {
     padding-top: 30px;
 }
