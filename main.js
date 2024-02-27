@@ -1,9 +1,20 @@
-/*
-The following main.js file is for the dice game 
+/*The following main.js file is for the dice game 
 which incorporates various key elements. It establishes clear rules 
 and mechanics, allowing users to interact with the game through 
-buttons that trigger corresponding actions. 
-*/
+buttons that trigger corresponding actions. */
+
+/* This function reloads the current webpage, 
+effectively refreshing the page and resetting its state.*/
+
+/* The reload() method reloads the current document.
+The reload() method does the same as the reload 
+button in your browser.*/
+function restartDiceGame() {
+  /* The location.reload() method is a built-in function 
+  in JavaScript that allows you to reload the 
+  current webpage or document. */
+  location.reload();
+}
 
 //This function simulates a dice roll and displays the results on the dicegame.html page
 function rollTheDice() {
@@ -14,6 +25,7 @@ function rollTheDice() {
     /* Selects the HTML element with the tag <h2> and class "results" in order
     to display the results of the dice roll*/
     let result = document.querySelector('h1');
+    
     result.innerHTML = " ";
 
     // Generates random numbers for each player's dice roll, by calling the diceGenerator() function.
@@ -72,17 +84,3 @@ function diceGenerator() {
         //Returns the generated random number.
         return randomNumber;
     }
-
-    
-/* This function reloads the current webpage, 
-effectively refreshing the page and resetting its state.*/
-
-/* The reload() method reloads the current document.
-The reload() method does the same as the reload 
-button in your browser.*/
-function restartDiceGame() {
-    /* The location.reload() method is a built-in function 
-    in JavaScript that allows you to reload the 
-    current webpage or document. */
-    location.reload();
-  }
